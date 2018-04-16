@@ -1,13 +1,15 @@
 // Copyright © John Gietzen. All Rights Reserved. This source is subject to the MIT license. Please see license.md for more information.
 
-namespace $projectname$
+namespace $projectname$.Tests
 {
-    using System;
+    using Xunit;
 
-    internal class Program
+    public class Class1Tests
     {
-        public static void Main(string[] args)
+        [Fact]
+        public void Who_When_What()
         {
+            var subject = new Class1();
         }
     }
 }
