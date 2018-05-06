@@ -3,5 +3,6 @@
     <Authors>John Gietzen</Authors>
     <Copyright>Copyright © $year$ $(Authors)</Copyright>
     <Product>$projectname$</Product>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 </Project>
