@@ -10,6 +10,7 @@
     <Description />
     <PackageLicenseUrl>https://raw.github.com/otac0n/$projectname$/master/license.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/otac0n/$projectname$</PackageProjectUrl>
+    <PackageTags />
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
