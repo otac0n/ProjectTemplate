@@ -6,6 +6,7 @@
     <Rule Id="CA1020" Action="None" />
     <Rule Id="CA1026" Action="None" />
     <Rule Id="CA1500" Action="None" />
+    <Rule Id="CA1716" Action="None" />
     <Rule Id="CA2202" Action="None" />
     <Rule Id="CA2210" Action="None" />
     <Rule Id="CA2243" Action="None" />
@@ -14,7 +15,9 @@
     <Rule Id="CA1006" Action="None" />
     <Rule Id="CA1020" Action="None" />
     <Rule Id="CA1026" Action="None" />
+    <Rule Id="CA1060" Action="Warning" />
     <Rule Id="CA1500" Action="None" />
+    <Rule Id="CA1716" Action="None" />
     <Rule Id="CA2202" Action="None" />
     <Rule Id="CA2210" Action="None" />
     <Rule Id="CA2243" Action="None" />
