@@ -8,6 +8,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFrameworks>net35;netcoreapp2.0</TargetFrameworks>
     <Description />
+    <PackageIconUrl />
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/otac0n/$projectname$</PackageProjectUrl>
     <PackageTags />
