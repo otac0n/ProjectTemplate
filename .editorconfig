@@ -58,5 +58,26 @@ csharp_space_between_method_call_parameter_list_parentheses = false
 csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 
+[*.{cs,vb}]
+dotnet_analyzer_diagnostic.severity = warning
+dotnet_diagnostic.CA1006.severity = none
+dotnet_diagnostic.CA1020.severity = none
+dotnet_diagnostic.CA1026.severity = none
+dotnet_diagnostic.CA1060.severity = warning
+dotnet_diagnostic.CA1500.severity = none
+dotnet_diagnostic.CA1716.severity = none
+dotnet_diagnostic.CA2202.severity = none
+dotnet_diagnostic.CA2210.severity = none
+dotnet_diagnostic.CA2243.severity = none
+dotnet_diagnostic.SA1115.severity = none
+dotnet_diagnostic.SA1116.severity = none
+dotnet_diagnostic.SA1118.severity = none
+dotnet_diagnostic.SA1407.severity = none
+dotnet_diagnostic.SA1600.severity = none
+dotnet_diagnostic.SA1601.severity = none
+dotnet_diagnostic.SA1602.severity = none
+dotnet_diagnostic.SA1629.severity = warning
+dotnet_diagnostic.SA1652.severity = none
+
 [*.{csproj,xml,yml,yaml,json,config,props,targets,ruleset}]
 indent_size = 2

@@ -2,7 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\SharedAssemblyInfo.props" />
   <PropertyGroup>
-    <CodeAnalysisRuleSet>$projectname$.ruleset</CodeAnalysisRuleSet>
     <DebugType>Full</DebugType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
