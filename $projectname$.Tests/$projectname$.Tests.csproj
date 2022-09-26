@@ -4,7 +4,7 @@
   <PropertyGroup>
     <DebugType>portable</DebugType>
     <IsPackable>false</IsPackable>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <Description />
   </PropertyGroup>
   <ItemGroup>
@@ -22,7 +22,6 @@
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
-    <AdditionalFiles Include="$projectname$.Tests.ruleset" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
