@@ -2,14 +2,16 @@
 
 namespace $projectname$.Tests
 {
-    using Xunit;
+    using NUnit.Framework;
 
+    [TestFixture]
     public class Class1Tests
     {
-        [Fact]
+        [Test]
         public void Who_When_What()
         {
             var subject = new Class1();
+            Assert.That(subject, Is.Not.Null);
         }
     }
 }
