@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "John Gietzen",
+  "classifications": [ "NuGet" ],
+  "identity": "MyPricates.Templates.Package",
+  "name": "My Private NuGet Package Template",
+  "shortName": "package",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sourceName": "$projectname$",
+  "preferNameDirectory": true,
+  "guids": [
+    "FE104DEE-AC11-442C-8BC1-898ABF9238BA",
+    "E3C50414-6DB5-4A58-8B37-8CE96AD508C8",
+    "9B1869C4-9B1E-4B8F-9FDD-DABDB2F04464",
+    "8CC7DD49-6D55-466D-9206-DFE4AC3F22ED",
+    "6b1d5590-7cec-4fb0-a0e1-1dd7a43d94ad",
+    "7c80fc92-6c39-4c47-b55c-1f92d633f706"
+  ],
+  "postActions": [
+    {
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        { "text": "Run 'dotnet restore'" }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    }
+  ]
+}
