@@ -16,9 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		stylecop.json = stylecop.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "$projectname$", "$projectname$\$projectname$.csproj", "{FE104DEE-AC11-442C-8BC1-898ABF9238BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farkle", "Farkle\Farkle.csproj", "{FE104DEE-AC11-442C-8BC1-898ABF9238BA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "$projectname$.Tests", "$projectname$.Tests\$projectname$.Tests.csproj", "{9B1869C4-9B1E-4B8F-9FDD-DABDB2F04464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farkle.Tests", "Farkle.Tests\Farkle.Tests.csproj", "{9B1869C4-9B1E-4B8F-9FDD-DABDB2F04464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

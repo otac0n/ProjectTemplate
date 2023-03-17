@@ -9,7 +9,7 @@
     "language": "C#",
     "type":"project"
   },
-  "sourceName": "$projectname$",
+  "sourceName": "Farkle",
   "preferNameDirectory": true,
   "guids": [
     "FE104DEE-AC11-442C-8BC1-898ABF9238BA",

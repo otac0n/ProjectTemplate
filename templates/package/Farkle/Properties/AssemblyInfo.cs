@@ -5,4 +5,4 @@ using System.Runtime.InteropServices;
 
 [assembly: Guid("6b1d5590-7cec-4fb0-a0e1-1dd7a43d94ad")]
 [assembly: CLSCompliant(true)]
-[assembly: InternalsVisibleTo("$projectname$.Tests")]
+[assembly: InternalsVisibleTo("Farkle.Tests")]

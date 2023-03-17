@@ -9,7 +9,7 @@
     <Description />
     <PackageIconUrl />
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/otac0n/$projectname$</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/otac0n/Farkle</PackageProjectUrl>
     <PackageTags />
   </PropertyGroup>
   <ItemGroup>
