@@ -27,9 +27,7 @@ deploy:
   artifact: /.*\.nupkg/
 skip_commits:
   files:
-    - .editorconfig
     - .gitattributes
     - .gitignore
     - CodeMaid.config
     - license.md
-    - SharedAssemblyInfo.props

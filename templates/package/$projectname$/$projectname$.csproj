@@ -5,7 +5,7 @@
     <DebugType>portable</DebugType>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <TargetFrameworks>net6.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net7.0;netcoreapp3.1</TargetFrameworks>
     <Description />
     <PackageIconUrl />
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
