@@ -19,6 +19,16 @@
     "6b1d5590-7cec-4fb0-a0e1-1dd7a43d94ad",
     "7c80fc92-6c39-4c47-b55c-1f92d633f706"
   ],
+  "symbols": {
+    "copyrightYear": {
+      "type": "generated",
+      "generator": "now",
+      "replaces": "$year$",
+      "parameters": {
+        "format": "yyyy"
+      }
+    }
+  },
   "postActions": [
     {
       "description": "Restore NuGet packages required by this project.",
