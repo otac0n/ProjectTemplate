@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\SharedAssemblyInfo.props" />
+  <Import Project="..\SharedAssemblyProperties.props" />
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
@@ -15,14 +15,6 @@
     <PackageProjectUrl>https://github.com/otac0n/Farkle</PackageProjectUrl>
     <PackageTags />
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="FixMe" Version="1.0.0" PrivateAssets="All" />
-    <PackageReference Include="GitVersion.MsBuild" Version="5.12.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />
-  </ItemGroup>
   <ItemGroup>
     <None Include="..\readme.md" Pack="true" PackagePath="\" />
     <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />

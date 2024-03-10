@@ -1,8 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <Authors>John Gietzen</Authors>
-    <Copyright>Copyright © $year$ $(Authors)</Copyright>
-    <Product>Farkle</Product>
-    <NeutralLanguage>en-US</NeutralLanguage>
-  </PropertyGroup>
-</Project>
