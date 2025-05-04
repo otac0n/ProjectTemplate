@@ -2,8 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\SharedAssemblyProperties.props" />
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
     <DebugType>portable</DebugType>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <IsPackable>false</IsPackable>

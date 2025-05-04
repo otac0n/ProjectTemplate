@@ -4,6 +4,8 @@
     <Copyright>Copyright © $year$ $(Authors)</Copyright>
     <Product>Farkle</Product>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="FixMe" Version="1.0.0" PrivateAssets="All" />
