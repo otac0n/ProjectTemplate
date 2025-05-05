@@ -9,7 +9,7 @@
     <Description />
     <PackageIconUrl />
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseExpression>LICENSE</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/otac0n/Farkle</PackageProjectUrl>
     <PackageTags />
   </PropertyGroup>
