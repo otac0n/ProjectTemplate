@@ -26,6 +26,11 @@
       "defaultValue": "John Gietzen",
       "replaces": "John Gietzen"
     },
+    "license": {
+      "type": "parameter",
+      "defaultValue": "MIT",
+      "replaces": "LICENSE"
+    },
     "copyrightYear": {
       "type": "generated",
       "generator": "now",

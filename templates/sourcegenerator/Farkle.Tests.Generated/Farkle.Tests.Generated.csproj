@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Farkle\Farkle.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" SetTargetFramework="TargetFramework=netstandard2.0" />
+  </ItemGroup>
+  <Import Project="..\Farkle\Farkle.targets" />
+  <ItemGroup>
+    <FarkleFile Include="TestCase1.txt">
+      <MyBoolOption>true</MyBoolOption>
+      <MyStringOption>This is an example.</MyStringOption>
+    </FarkleFile>
+  </ItemGroup>
+</Project>

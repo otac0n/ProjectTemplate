@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Farkle (source generator)": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\Farkle.Tests.Generated\\Farkle.Tests.Generated.csproj"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <AvailableItemName Include="FarkleFile" />
+    <!-- Updates to these items require corresponding changes to 'GenerateSources.cs' and 'Model\FarkleItem.cs'. -->
+    <CompilerVisibleItemMetadata Include="FarkleFile" MetadataName="MyBoolOption" />
+    <CompilerVisibleItemMetadata Include="FarkleFile" MetadataName="MyStringOption" />
+    <CompilerVisibleItemMetadata Include="FarkleFile" MetadataName="Link" />
+    <CompilerVisibleItemMetadata Include="AdditionalFiles" MetadataName="SourceItemGroup" />
+    <CompilerVisibleProperty Include="CompilerGeneratedFilesOutputPath" />
+  </ItemGroup>
+
+  <!-- Using the technique from https://platform.uno/blog/using-msbuild-items-and-properties-in-c-9-source-generators -->
+  <Target Name="_UpdateFarkleFilesMetatdata" BeforeTargets="GenerateMSBuildEditorConfigFileShouldRun" Condition=" '@(FarkleFile)' != '' ">
+    <ItemGroup>
+      <AdditionalFiles Include="@(FarkleFile)" SourceItemGroup="FarkleFile" />
+    </ItemGroup>
+  </Target>
+</Project>
